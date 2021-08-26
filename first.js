@@ -17,12 +17,10 @@
 
 
 const ownReverse = (items) => {
-    const copyOFItems = items
     const result = []
-    for (let i = copyOFItems.length -1; i >= 0; i--) {
+    for (let i = items.length -1; i >= 0; i--) {
         result.push(items[i])
     }
-    
     return result
 }
 console.log(ownReverse([4, 7, 10]))
